@@ -1,27 +1,121 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin Project Landing Page</title>
+    <title>#BlahBlog</title>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div id="hero-section">
-        <div class="logo">Landing</div>
-        <div class="nav">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+    <header class="hero-container">
+        <nav class="hero-nav">
+            <div id="logo" class="ml">
+                <a href="#BlahBlog" class="animation-link">
+                    <span class="span-1">Blah</span>&nbsp;<span class="span-2">Blog</span>
+                </a>
+            </div>
+            <ul class="hero-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div id="hero-section">
+            <div id="hero-left">
+                <h1 class="hero-main">Check Out BlahBlah?</h1>
+                <p class="hero-secondary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Nostrum alias tempora culpa nihil,
+                    temporibus similique saepe vel
+                </p>
+                <a href="#" class="btn">Yes, please!</a>
+            </div>
+
+            <div id="hero-right">
+                <img src="img/hero-invite-2.jpg" alt="An image of how awesome this site is" width="450" height="250">
+            </div>
         </div>
-    <div class="section-1 text">
-        <h1>This website is<br>awesome</h1>
-        <p class="paragraph text">This website has some subtext that goes here under the main title.<br>It's a smaller font and the color is lower<br>contrast</p>
-        <button class="sign-up">sign-up</button>
+    </header>
+
+    <section id="info-section">
+        <h2 class="info-header">What to expect.</h2>
+
+        <ul>
+            <li>
+                <img src="img/bridge.jpg" class="info-image" alt="Aerial view of a bridge spanning a forested canyon"
+                    width="250" height="250">
+                <p>
+                    Escape the traffic in cramped buses or trains
+                </p>
+            </li>
+
+            <li>
+                <img src="img/coast.jpg" class="info-image"
+                    alt="Aerial view of a coastal town with the sea and mountains in the backdrop" width="250"
+                    height="250">
+                <p>
+                    Breath-taking vistas await you
+                </p>
+            </li>
+
+            <li>
+                <img src="img/canyon.jpg" class="info-image" alt="Flying through a canyon" width="250" height="250">
+                <p>
+                    Appreciate the true beauty of your destination
+                </p>
+            </li>
+
+            <li>
+                <img src="img/child.jpg" class="info-image" alt="Young boy looking through aeroplane's window"
+                    width="250" height="250">
+                <p>
+                    Make lasting family memories
+                </p>
+            </li>
+        </ul>
+    </section>
+
+    <div id="quote-section">
+        <div class="quote">
+            <p>
+                With men this is impossible, but with Elohim all
+                things are possible.
+            </p>
+        </div>
+        <div class="quoter">
+            <p>- Yeshua, Messiah (Matthew 19:26)</p>
+        </div>
     </div>
-    <div class="demo-img">
-        <img src="https://via.placeholder.com/620x420.png/a59090/000000?Text=620x420" alt="random image">
-    </div>
-</div>
+
+    <section id="action">
+        <div class="action-container">
+            <ul class="action-items">
+                <li>
+                    <h2>Preaching to the choir? It's time!</h2>
+
+                    <p>
+                        Book your next tour with us by clicking
+                        that button right over there!
+                    </p>
+                </li>
+                <li>
+                    <a href="#" class="btn action-btn">
+                        Book tour
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p id="copyright">
+            Copyright &copy; 2024 Jason Robinson. Part of "The Odin Project: Foundations" online course. Used for
+            demonstration purposes only.
+        </p>
+    </footer>
 </body>
+
 </html>
