@@ -12,7 +12,7 @@
 }
 
 span {
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bold;
     overflow: hidden;
     display: block;
@@ -71,14 +71,6 @@ section {
     flex-direction: column;
 }
 
-.hero-logo {
-    font-size: 24px;
-    font-weight: 800;
-    color: #F9FAF8;
-    flex: 1;
-    margin-right: auto;
-}
-
 .hero-nav {
     flex: 1;
     display: flex;
@@ -96,10 +88,6 @@ section {
 
 }
 
-/* .hero-list a:link,
-   .hero-list a:visited,
-   .hero-list a:hover,
-   .hero-list a:active */
 .hero-list a {
     color: #F9FAF8;
     text-decoration: none;
@@ -115,6 +103,7 @@ section {
 
 #hero-section {
     display: flex;
+    align-content: space-around;
     gap: 25px;
     margin: 110px auto;
 }
@@ -183,6 +172,14 @@ section {
     flex: 1;
     width: 150px;
     text-align: center;
+}
+
+.Hacker {
+    border: 5px solid #3882F6;
+    border-radius: 12px;
+    width: 400px;
+    height: 250px;
+    margin-bottom: 10px;
 }
 
 .info-image {
